@@ -63,6 +63,7 @@ class Vector {
 
   getLength() {
     return Math.sqrt((this.x ** 2) + (this.y ** 2))
+    // return Math.hypot(3,4)
   }
 }
 
